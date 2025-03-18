@@ -1,4 +1,5 @@
 #SERBAN Victor Gabriel
+
 The implemented program presents a text-based interface that allows transformations on image files.
 
 To develop the program, I defined two different types of structures: one for storing color images (struct pixel) and another for storing the corners of the working area (struct colt).
