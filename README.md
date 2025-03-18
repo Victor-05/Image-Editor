@@ -1,4 +1,4 @@
-#SERBAN Victor Gabriel
+SERBAN Victor Gabriel, 313CA
 
 The implemented program presents a text-based interface that allows transformations on image files.
 
@@ -20,6 +20,7 @@ SELECT ALL
 CROP
 ROTATE <angle>
 EXIT
+
 The APPLY function applies a kernel to color images. This process involves multiplying a 3x3 kernel with 3x3 sections of the image. Applying a kernel alters the appearance of the image. This subprogram accepts parameters such as <EDGE>, <SHARPEN>, <BLUR>, and <GAUSSIAN_BLUR>. Depending on the given parameter, a different kernel is applied. After multiplying the image sections with the kernel, all elements are summed to obtain a pixel in the new image.
 
 The HISTOGRAM function creates and displays a histogram for grayscale images based on the input parameters (the number of bins and "*" characters). The program calculates the frequency of all possible pixel values in the image. Based on the number of bins, it determines the bin size. A formula is then used to calculate the number of "*" for each bin, followed by the histogram display.
@@ -43,3 +44,10 @@ In each function, dynamically allocated memory is freed after use if it is no lo
 Files are closed immediately after their operations are completed.
 
 Thus, the program runs correctly and efficiently, without errors or memory leaks, meeting all assignment requirements while adhering to the imposed coding style.
+
+
+
+
+
+
+
