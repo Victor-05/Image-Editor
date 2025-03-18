@@ -11,15 +11,25 @@ The program runs based on a set of commands provided as input by the user. These
 The possible commands are:
 
 LOAD <filename>
+
 SAVE <filename>
+
 APPLY <parameter>
+
 HISTOGRAM x y
+
 EQUALIZE
+
 SELECT <x1> <y1> <x2> <y2>
+
 SELECT ALL
+
 CROP
+
 ROTATE <angle>
+
 EXIT
+
 
 The APPLY function applies a kernel to color images. This process involves multiplying a 3x3 kernel with 3x3 sections of the image. Applying a kernel alters the appearance of the image. This subprogram accepts parameters such as <EDGE>, <SHARPEN>, <BLUR>, and <GAUSSIAN_BLUR>. Depending on the given parameter, a different kernel is applied. After multiplying the image sections with the kernel, all elements are summed to obtain a pixel in the new image.
 
